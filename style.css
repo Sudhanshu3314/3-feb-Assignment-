@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Red Rose", cursive;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+	background-size: cover;
+}
+
+li {
+	list-style-type: none;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: rgb(255,194,51);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(255,81,95);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.logo img{
+    width: 120px;
+    height: 40px;
+}
+nav ul li:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px;
+}
+
+header nav ul {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+}
+
+section{
+    margin: 60px;
+}
+
+section h1{
+    color: rgb(255,194,51);
+    font-weight: bolder;
+    font-size: 64px;
+}
+section button{
+    margin-top: 14px;
+}
+
+.chevron{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+.chevron img{
+    width: 100px;
+    height: 100px;
+}
